@@ -1,0 +1,4 @@
+1. git init
+2. npm init -> get package.json
+3. npm install lite-server --save-dev	-> get lite-server module  (--save-dev refers to development dependency and --save-option dependency)
+4. package.json  scripts{"start": "npm run lite"   "lite": "lite-server"}
