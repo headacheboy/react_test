@@ -1,0 +1,24 @@
+#pikachu {
+  width:10%;
+  border:2px solid red;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #3fbfbf;
+}
+
+#email {
+  text-align:center;
+  font-family: Times;
+  font-size: 22px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.abstract{
+  font-family: Times;
+  font-size: 16px;
+}
