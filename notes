@@ -1,0 +1,15 @@
+react jsx if else:
+
+1.
+return <div className={this.state.isComplete? "isComplete": ""}> ... </div>
+
+2.
+var isComplete = this.getIsComplete();
+return <div className={isComplete}> ... </div>
+
+3.
+return <div className={this.getIsComplete()}> ... </div>
+
+4.
+return <div className={this.state.isComplete && "isComplete"}> ... </div>
+// no else
